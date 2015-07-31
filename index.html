@@ -26,6 +26,12 @@
    </select>
 </p>
 
+<p>
+  <label for="amount">Auto Hide Date</label>
+  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+</p>
+<div id="slider-range-max"></div>
+
 <br>
     <p>
 <fieldset class="ui-grid-a">
@@ -35,6 +41,20 @@
    </p>
 
     <script>
+    
+    // Slider
+    $(function() {
+    $( "#slider-range-max" ).slider({
+      range: "max",
+      min: 1,
+      max: 10,
+      value: 5,
+      slide: function( event, ui ) {
+        $( "#amount" ).val( ui.value );
+      }
+    });
+    $( "#amount" ).val( $( "#slider-range-max" ).slider( "value" ) );
+  });
     
         // Get the Query Parameter
     function getQueryParam(variable, default_)
@@ -64,9 +84,11 @@
       //Setup to allow easy adding more options later
       function saveOptions() {
         var Scale = document.getElementById("scale");
+        var Amount = document.getElementById("amount");
         
         var options = {
           "scale": Scale.options[Scale.selectedIndex].value,
+          "amount" : Amount.options[Amount.selectedIndex].value
         }
         
         return options;
