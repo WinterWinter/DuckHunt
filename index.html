@@ -5,25 +5,7 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script>
-
-// Slider
-    $(function() {
-    $( "#slider-range-max" ).slider({
-      range: "max",
-      min: 1,
-      max: 10,
-      value: 5,
-      slide: function( event, ui ) {
-        $( "#amount" ).val( ui.value );
-      }
-    });
-    $( "#amount" ).val( $( "#slider-range-max" ).slider( "value" ) );
-  });
-	
-</script>
-
-    <title>Metal Gear Pebble</title>
+    <title>Duck Hunt GT</title>
   </head>
   <body>
 
@@ -31,7 +13,6 @@
   <div data-role="header"  data-theme="b">
   <h1>Selection Screen</h1>
   </div>
-
 
   <div data-role="main" class="ui-content">
     <form method="post" action="demoform.asp">
@@ -43,12 +24,6 @@
 <option value="F">Fahrenheit</option>
    </select>
 </p>
-
-<p>
-  <label for="amount">Auto Hide Date</label>
-  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-</p>
-<div id="slider-range-max"></div>
 
 <br>
     <p>
