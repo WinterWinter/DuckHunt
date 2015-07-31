@@ -26,6 +26,23 @@
 </p>
 
 <br>
+
+<p>Auto Hide Date
+<select id="date">
+<option value="1">1 Second</option>
+<option value="2">2 Seconds</option>
+<option value="3">3 Seconds</option>
+<option value="4">4 Seconds</option>
+<option value="5">5 Seconds</option>
+<option value="6">6 Seconds</option>
+<option value="7">7 Seconds</option>
+<option value="8">8 Seconds</option>
+<option value="9">9 Seconds</option>
+<option value="10">10 Seconds</option>
+   </select>
+</p>
+
+<br>
     <p>
 <fieldset class="ui-grid-a">
 <div class="ui-block-a"><button type="submit" data-theme="d" id="b-cancel">Cancel</button></div>
@@ -63,11 +80,11 @@
       //Setup to allow easy adding more options later
       function saveOptions() {
         var Scale = document.getElementById("scale");
-        var Amount = document.getElementById("amount");
+        var Hide_Date = document.getElementById("date");
         
         var options = {
           "scale": Scale.options[Scale.selectedIndex].value,
-          "amount" : Amount.options[Amount.selectedIndex].value
+          "date" : Hide_Date.options[Hide_Date.selectedIndex].value
         }
         
         return options;
