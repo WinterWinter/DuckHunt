@@ -239,19 +239,19 @@ static void update_bg_color(struct tm *current_time) {
 
 static void update_bg_image(struct tm *current_time){
   
-  if(current_time->tm_mon >=12 && current_time->tm_mon < 3){
+  if(current_time->tm_mon >=11 && current_time->tm_mon < 2){
     s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_Winter);
     bitmap_layer_set_bitmap(s_background_layer, s_background_bitmap);
   }
-  else if(current_time->tm_mon >=3 && current_time->tm_mon < 6){
+  else if(current_time->tm_mon >=2 && current_time->tm_mon < 5){
     s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_Spring);
     bitmap_layer_set_bitmap(s_background_layer, s_background_bitmap);
   }
-   else if(current_time->tm_mon >=6 && current_time->tm_mon < 9){
+   else if(current_time->tm_mon >=5 && current_time->tm_mon < 8){
     s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_Summer);
     bitmap_layer_set_bitmap(s_background_layer, s_background_bitmap);
   }
-   else if(current_time->tm_mon >=9 && current_time->tm_mon < 12){
+   else if(current_time->tm_mon >=8 && current_time->tm_mon < 11){
     s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_Fall);
     bitmap_layer_set_bitmap(s_background_layer, s_background_bitmap);
   }
@@ -369,7 +369,7 @@ static void main_window_unload(Window *window) {
 
 static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
   update_time();
-  update_bg_color(tick_time);  
+  update_bg_color(tick_time); 
   update_display(tick_time);
   
 

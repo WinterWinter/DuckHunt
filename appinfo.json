@@ -15,13 +15,134 @@
     "resources": {
         "media": [
             {
+                "file": "images/Summer X.png",
+                "name": "Summer",
+                "type": "png"
+            },
+            {
+                "file": "images/eleven.png",
+                "name": "DUCK_FIVE",
+                "type": "png"
+            },
+            {
+                "file": "images/Spring X.png",
+                "name": "Spring",
+                "type": "png"
+            },
+            {
                 "file": "images/20.png",
                 "name": "BATTERY_20",
                 "type": "png"
             },
             {
+                "file": "images/ten.png",
+                "name": "DUCK_FOUR",
+                "type": "png"
+            },
+            {
+                "file": "images/stormx.png",
+                "name": "IMAGE_STORM",
+                "type": "png"
+            },
+            {
+                "file": "images/nine.png",
+                "name": "DUCK_THREE",
+                "type": "png"
+            },
+            {
+                "file": "images/six.png",
+                "name": "DOG_SIX",
+                "type": "png"
+            },
+            {
+                "file": "images/fourteen.png",
+                "name": "DUCK_EIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/two.png",
+                "name": "DOG_TWO",
+                "type": "png"
+            },
+            {
+                "file": "images/five.png",
+                "name": "DOG_FIVE",
+                "type": "png"
+            },
+            {
+                "file": "images/100.png",
+                "name": "BATTERY_100",
+                "type": "png"
+            },
+            {
+                "file": "images/three.png",
+                "name": "DOG_THREE",
+                "type": "png"
+            },
+            {
+                "file": "images/BTX.png",
+                "name": "BLUETOOTH",
+                "type": "png"
+            },
+            {
+                "file": "images/rainx.png",
+                "name": "IMAGE_RAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/fifteen.png",
+                "name": "DUCK_NINE",
+                "type": "png"
+            },
+            {
+                "file": "images/twelve.png",
+                "name": "DUCK_SIX",
+                "type": "png"
+            },
+            {
+                "file": "images/menux.png",
+                "menuIcon": true,
+                "name": "menu",
+                "type": "png"
+            },
+            {
+                "file": "images/one.png",
+                "name": "DOG_ONE",
+                "type": "png"
+            },
+            {
+                "file": "images/Winter X.png",
+                "name": "Winter",
+                "type": "png"
+            },
+            {
                 "file": "images/40.png",
                 "name": "BATTERY_40",
+                "type": "png"
+            },
+            {
+                "file": "images/four.png",
+                "name": "DOG_FOUR",
+                "type": "png"
+            },
+            {
+                "file": "images/thirteen.png",
+                "name": "DUCK_SEVEN",
+                "type": "png"
+            },
+            {
+                "file": "images/eight.png",
+                "name": "DUCK_TWO",
+                "type": "png"
+            },
+            {
+                "file": "images/snowx.png",
+                "name": "IMAGE_SNOW",
+                "type": "png"
+            },
+            {
+                "file": "images/seven.png",
+                "name": "DUCK_ONE",
                 "type": "png"
             },
             {
@@ -35,109 +156,8 @@
                 "type": "png"
             },
             {
-                "file": "images/100.png",
-                "name": "BATTERY_100",
-                "type": "png"
-            },
-            {
-                "file": "images/menux.png",
-                "menuIcon": true,
-                "name": "menu",
-                "type": "png"
-            },
-            {
-                "file": "images/six.png",
-                "name": "DOG_SIX",
-                "type": "png"
-            },
-            {
-                "file": "images/four.png",
-                "name": "DOG_FOUR",
-                "type": "png"
-            },
-            {
-                "file": "images/three.png",
-                "name": "DOG_THREE",
-                "type": "png"
-            },
-            {
-                "file": "images/fifteen.png",
-                "name": "DUCK_NINE",
-                "type": "png"
-            },
-            {
-                "file": "images/fourteen.png",
-                "name": "DUCK_EIGHT",
-                "type": "png"
-            },
-            {
-                "file": "images/thirteen.png",
-                "name": "DUCK_SEVEN",
-                "type": "png"
-            },
-            {
-                "file": "images/twelve.png",
-                "name": "DUCK_SIX",
-                "type": "png"
-            },
-            {
-                "file": "images/eleven.png",
-                "name": "DUCK_FIVE",
-                "type": "png"
-            },
-            {
-                "file": "images/ten.png",
-                "name": "DUCK_FOUR",
-                "type": "png"
-            },
-            {
-                "file": "images/nine.png",
-                "name": "DUCK_THREE",
-                "type": "png"
-            },
-            {
-                "file": "images/eight.png",
-                "name": "DUCK_TWO",
-                "type": "png"
-            },
-            {
-                "file": "images/seven.png",
-                "name": "DUCK_ONE",
-                "type": "png"
-            },
-            {
-                "file": "images/five.png",
-                "name": "DOG_FIVE",
-                "type": "png"
-            },
-            {
-                "file": "images/two.png",
-                "name": "DOG_TWO",
-                "type": "png"
-            },
-            {
-                "file": "images/one.png",
-                "name": "DOG_ONE",
-                "type": "png"
-            },
-            {
-                "file": "images/stormx.png",
-                "name": "IMAGE_STORM",
-                "type": "png"
-            },
-            {
                 "file": "images/sunx.png",
                 "name": "IMAGE_SUN",
-                "type": "png"
-            },
-            {
-                "file": "images/snowx.png",
-                "name": "IMAGE_SNOW",
-                "type": "png"
-            },
-            {
-                "file": "images/rainx.png",
-                "name": "IMAGE_RAIN",
                 "type": "png"
             },
             {
@@ -146,28 +166,8 @@
                 "type": "png"
             },
             {
-                "file": "images/Winter X.png",
-                "name": "Winter",
-                "type": "png"
-            },
-            {
-                "file": "images/Spring X.png",
-                "name": "Spring",
-                "type": "png"
-            },
-            {
                 "file": "images/Fall X.png",
                 "name": "Fall",
-                "type": "png"
-            },
-            {
-                "file": "images/BTX.png",
-                "name": "BLUETOOTH",
-                "type": "png"
-            },
-            {
-                "file": "images/Summer X.png",
-                "name": "Summer",
                 "type": "png"
             }
         ]
