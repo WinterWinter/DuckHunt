@@ -121,14 +121,17 @@ input[type=button] {
  
  function getConfigData() {
     var scale = document.getElementById("scale");
+    var city_name = document.getElementById("city_name_choice");
     var apiKey = document.getElementById("apiKey");
  
     var options = {
       "scale": scale.options[scale.selectedIndex].value,
+      "city": city_name.value,
       "apiKey": apiKey.value
     };
     // Save for next launch
     localStorage["scale"] = options["scale"];
+    localStorage["city"] = options["city"];
     localStorage["apiKey"] = options["apiKey"];
     console.log('Got options: ' + JSON.stringify(options));
     return options;
@@ -154,10 +157,12 @@ input[type=button] {
         
           (function() {
     var scale = document.getElementById("scale");
+    var city_name = document.getElementById("city_name_choice");
     var apiKey = document.getElementById("apiKey");
     // Load any previously saved configuration, if available
     if(localStorage["scale"]) {
       scale.value = localStorage["scale"];
+      city_name.value = localStorage["city"];
       apiKey.value = localStorage["apiKey"];
     }
   })();
